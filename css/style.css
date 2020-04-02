@@ -1982,6 +1982,9 @@ h1, h2, h3, h4, h5,
   border-color: #4285f4 !important;
   color: #fff; }
 
-  .footer {
-    margin-top: 5em;
+.footer {
+    margin-top: 20em; 
 }
+@media (min-width: 400px) {
+  .footer {
+    margin-top: 0; } }
